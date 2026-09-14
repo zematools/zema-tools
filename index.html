@@ -3,87 +3,274 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Font Smooth by Zema Tools. Change website fonts, spacing, and typography in Firefox.">
-  <title>Font Smooth - Zema Tools</title>
+
+  <meta
+    name="description"
+    content="Font Smooth by Zema Tools. A browser extension for better website typography, fonts, spacing, profiles, and presets."
+  >
+
+  <title>Font Smooth · Zema Tools</title>
+
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <main class="page-shell">
+
     <header class="site-header">
-      <div class="brand">Zema Tools</div>
-      <div class="status">In development</div>
+      <a class="brand" href="./" aria-label="Zema Tools home">
+        Zema Tools
+      </a>
+
+      <nav class="header-nav" aria-label="Primary navigation">
+        <a href="#plans">Free & Pro</a>
+        <a href="mailto:productionszema@gmail.com">Support</a>
+      </nav>
     </header>
 
-    <section class="intro" aria-labelledby="product-title">
+
+    <section class="hero" aria-labelledby="product-title">
+
+      <div class="hero-meta">
+        <span class="product-type">Browser extension</span>
+        <span class="platform-status">Firefox first</span>
+      </div>
+
       <h1 id="product-title">Font Smooth</h1>
-      <p class="intro-copy">Change website fonts, spacing, and typography.</p>
-      <p class="platforms">Firefox first.</p>
+
+      <p class="hero-copy">
+        Better typography for the web.
+      </p>
+
+      <p class="hero-detail">
+        Change website fonts, spacing, profiles, presets, and font roles
+        without fighting each site's styles.
+      </p>
+
+      <div class="platform-line">
+        <span class="platform-live">Firefox</span>
+        <span>Chrome planned</span>
+        <span>Edge planned</span>
+        <span>Opera planned</span>
+      </div>
+
     </section>
 
+
+    <section class="product-panel" aria-label="Font Smooth preview">
+
+      <div class="panel-topbar">
+        <div>
+          <strong>Font Smooth</strong>
+          <span>Typography controls</span>
+        </div>
+
+        <span class="panel-state">On</span>
+      </div>
+
+      <div class="panel-row">
+        <div>
+          <strong>Website font</strong>
+          <span>Use one font everywhere or set it per website.</span>
+        </div>
+
+        <span class="panel-value">Geist</span>
+      </div>
+
+      <div class="panel-row">
+        <div>
+          <strong>Text size</strong>
+          <span>Adjust readable sizing without changing the page layout.</span>
+        </div>
+
+        <span class="panel-value">100%</span>
+      </div>
+
+      <div class="panel-row">
+        <div>
+          <strong>Fonts by type</strong>
+          <span>Separate fonts for body text, headings, and code.</span>
+        </div>
+
+        <span class="panel-value pro-label">Pro</span>
+      </div>
+
+    </section>
+
+
     <section class="section" aria-labelledby="features-heading">
-      <h2 id="features-heading" class="section-title">Font Smooth</h2>
+
+      <div class="section-heading">
+        <h2 id="features-heading">What it does</h2>
+        <p>Simple controls, saved locally.</p>
+      </div>
 
       <div class="rows">
+
         <div class="row">
-          <h3>Website fonts</h3>
-          <p>Included, device, and custom fonts.</p>
+          <div>
+            <h3>Website fonts</h3>
+            <span class="row-tag">Core</span>
+          </div>
+
+          <p>
+            Included fonts, device fonts, and imported custom fonts.
+          </p>
         </div>
 
         <div class="row">
-          <h3>Website profiles</h3>
-          <p>Separate typography for individual websites.</p>
+          <div>
+            <h3>Website profiles</h3>
+            <span class="row-tag">Per site</span>
+          </div>
+
+          <p>
+            Keep separate typography settings for individual websites.
+          </p>
         </div>
 
         <div class="row">
-          <h3>Presets</h3>
-          <p>Save setups for later.</p>
+          <div>
+            <h3>Presets</h3>
+            <span class="row-tag">Reusable</span>
+          </div>
+
+          <p>
+            Save a typography setup and apply it again later.
+          </p>
         </div>
 
         <div class="row">
-          <h3>Fonts by type</h3>
-          <p>Body text, headings, and code.</p>
+          <div>
+            <h3>Fonts by type</h3>
+            <span class="row-tag">Pro</span>
+          </div>
+
+          <p>
+            Choose separate fonts for body text, headings, and code.
+          </p>
         </div>
 
         <div class="row">
-          <h3>Backup &amp; restore</h3>
-          <p>Save your setup to one file.</p>
+          <div>
+            <h3>Backup &amp; restore</h3>
+            <span class="row-tag">Pro</span>
+          </div>
+
+          <p>
+            Export your Font Smooth setup to one file and restore it later.
+          </p>
         </div>
+
       </div>
     </section>
 
-    <section class="section" aria-labelledby="plans-heading">
-      <h2 id="plans-heading" class="section-title">Free and Pro</h2>
 
-      <div class="plan">
+    <section
+      class="section plans-section"
+      id="plans"
+      aria-labelledby="plans-heading"
+    >
+
+      <div class="section-heading">
+        <h2 id="plans-heading">Free and Pro</h2>
+        <p>No subscription.</p>
+      </div>
+
+
+      <div class="plan plan-free">
+
         <div class="plan-heading">
-          <h3>Free</h3>
+          <div>
+            <h3>Free</h3>
+            <span>Useful from day one.</span>
+          </div>
+
+          <strong class="plan-price">$0</strong>
         </div>
-        <div class="plan-items" aria-label="Free plan features">
+
+        <div class="plan-items">
           <span>3 website profiles</span>
           <span>3 presets</span>
           <span>1 custom font</span>
         </div>
+
       </div>
 
+
       <div class="plan plan-pro">
+
         <div class="plan-heading">
-          <h3>Font Smooth Pro</h3>
-          <strong>$7.99 one-time</strong>
-          <span>No subscription</span>
+          <div>
+            <h3>Font Smooth Pro</h3>
+            <span>For deeper per-site control.</span>
+          </div>
+
+          <div class="price-stack">
+            <strong class="plan-price">$7.99</strong>
+            <span>one-time</span>
+          </div>
         </div>
-        <div class="plan-items" aria-label="Font Smooth Pro features">
+
+        <div class="plan-items">
           <span>Unlimited website profiles</span>
           <span>Unlimited presets</span>
           <span>Up to 20 custom fonts</span>
           <span>Fonts by type</span>
           <span>Backup &amp; restore</span>
         </div>
+
+        <div class="purchase-row">
+          <span class="purchase-note">
+            Pro purchasing is coming soon.
+          </span>
+
+          <span class="purchase-status">
+            One-time license
+          </span>
+        </div>
+
       </div>
+
     </section>
 
-    <footer class="footer footer-simple">
-      <div>© 2026 Zema Tools</div>
+
+    <section class="section privacy-section" aria-labelledby="privacy-heading">
+
+      <div class="section-heading">
+        <h2 id="privacy-heading">Privacy</h2>
+        <p>Local by default.</p>
+      </div>
+
+      <div class="privacy-copy">
+        <p>
+          Normal typography features run locally in your browser.
+          Font Smooth does not send your browsing history, webpage text,
+          font searches, website profiles, favorites, or imported font files
+          to Zema Tools.
+        </p>
+
+        <p>
+          Pro activation contacts the license service only when needed
+          for activation, validation, or deactivation.
+        </p>
+      </div>
+
+    </section>
+
+
+    <footer class="footer">
+
+      <div>
+        © 2026 Zema Tools
+      </div>
+
+      <nav aria-label="Footer navigation">
+        <a href="mailto:productionszema@gmail.com">Support</a>
+      </nav>
+
     </footer>
+
   </main>
 </body>
 </html>
